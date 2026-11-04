@@ -71,7 +71,8 @@ Proyecto Final/
 ├── index.html
 
 ├── css/
-   └── styles.css
+
+│  └── styles.css
 
 ├── icons/
 
