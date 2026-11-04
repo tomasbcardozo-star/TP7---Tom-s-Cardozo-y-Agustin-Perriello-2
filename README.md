@@ -62,4 +62,98 @@ También se destaca la importancia de verificar las respuestas de una inteligenc
 
 El desarrollo de las preguntas, las comparaciones y las respuestas investigadas se encuentra en el documento **TP7_AgustinPerrielloTomásCardozo.docx**.
 
+### Organizacion del proyecto
 
+Proyecto Final/
+
+│
+
+├── index.html
+
+├── css/
+   └── styles.css
+│
+
+├── icons/
+
+│ ├── dayplantsicon.png
+
+│ └── nightzombieicon.png
+
+│
+
+├── images_plants/
+
+│ ├── images_dayplants/
+
+│ │ ├── plant1.png
+
+│ │ ├── plant2.png
+
+│ │ ├── plant3.png
+
+│ │ ├── ...
+
+│ │ └── plant21.png
+
+│ │
+
+│ └── images_nightplants/
+
+│ ├── night1.png
+
+│ ├── night2.png
+
+│ ├── night3.png
+
+│ ├── ...
+
+│ └── night13.png
+
+│
+
+├── images_defenses/
+
+│ ├── defense_day/
+
+│ │ ├── defensadia1.png
+
+│ │ ├── defensadia2.png
+
+│ │ ├── defensadia3.png
+
+│ │ └── defensadia4.png
+
+│ │
+
+│ └── defense_night/
+
+│ ├── defensanoche1.png
+
+│ ├── defensanoche2.png
+
+│ ├── defensanoche3.png
+
+│ └── defensanoche4.png
+
+│
+
+├── mockups/
+
+│ ├── pantalla1albumAlmanaque.png
+
+│ ├── pantalla2albumAlmanaque.png
+
+│ ├── pantalla3albumAlmanaque.png
+
+│ └── pantalla4albumAlmanaque.png
+
+│
+
+└─── other/
+
+├── plant22.png
+
+├── plantilla.pdn
+
+└── pasto.png
