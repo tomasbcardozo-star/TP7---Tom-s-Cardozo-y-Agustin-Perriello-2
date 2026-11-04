@@ -62,4 +62,4 @@ También se destaca la importancia de verificar las respuestas de una inteligenc
 
 El desarrollo de las preguntas, las comparaciones y las respuestas investigadas se encuentra en el documento **TP7_AgustinPerrielloTomásCardozo.docx**.
 
-> **Pendiente de completar en el TP7:** documentar tres ejemplos completos de búsquedas, con pregunta inicial, respuesta obtenida, pregunta mejorada y explicación de por qué mejoró el resultado, según la devolución docente.
+
