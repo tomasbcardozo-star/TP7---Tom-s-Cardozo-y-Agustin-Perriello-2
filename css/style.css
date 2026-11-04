@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:'Fredoka',sans-serif;
+
+    background-image:
+    linear-gradient(
+    rgba(0,0,0,.25),
+    rgba(0, 0, 0,.25)
+    ),
+    url();
+
+    background-size:cover;
+    background-attachment:fixed;
+}
+
+/* header */
+
+header{
+    background:#5a3516;
+    padding:5px;
+    border-bottom:5px solid #2d1808;
+
+    position:sticky;
+    top:0;
+    z-index:100;
+}
+
+header h1{
+    text-align:center;
+    color:#ffe88f;
+    font-size:3rem;
+    text-shadow:3px 3px black;
+}
+
+nav{
+    text-align:center;
+    margin: 5px;
+}
+
+nav a{
+    text-decoration:none;
+
+    color:white;
+
+    background:#67aa36;
+
+    padding:12px 22px;
+
+    margin:5px;
+
+    border-radius:15px;
+
+    border:3px solid #2e5b12;
+
+    display:inline-block;
+
+    transition:.3s;
+}
+
+nav a:hover{
+    transform:translateY(-3px);
+}
+
+
+
+
+/* pantallas */
+
+.pantalla{
+    min-height:50vh;
+    padding:60px;
+}
+
+h2{
+    text-align:center;
+    color:white;
+    font-size:3rem;
+    text-shadow:3px 3px black;
+    margin-bottom:40px;
+}
+
+h3{
+    color:#4d2b0c;
+}
+
+.hero{
+    max-width:900px;
+    margin:auto;
+
+    background:#f3dfaa;
+
+    padding:40px;
+
+    border-radius:20px;
+
+    border:6px solid #65411d;
+
+    text-align:center;
+}
+
+.hero p{
+    margin-top:15px;
+    font-size:1.2rem;
+}
+
+/* inicio */
+
+.categorias{
+    display:flex;
+    justify-content:center;
+    gap:40px;
+    flex-wrap:wrap;
+
+    margin-top:60px;
+}
+
+.categoria{
+    width:400px;
+
+    background:#f3dfaa;
+
+    border:6px solid #65411d;
+
+    border-radius:20px;
+
+    overflow:hidden;
+
+    text-align:center;
+}
+
+.categoria img{
+    width: 100px;
+    height: 100px;
+    
+}
+
+.categoria h3{
+    padding:20px;
+}
+
+.boton{
+    display: inline-flex;
+
+    text-decoration:none;
+
+    color:white;
+
+    background:#67aa36;
+
+    padding: 10px 10px;
+
+    border-radius:10px;
+
+    border:3px solid #2e5b12;
+
+    margin: 15px;
+
+}
+
+.grande{
+    margin-top:30px;
+}
+
+.combos-home{
+    text-align:center;
+    margin-top:80px;
+}
+
+/* ALBUM */
+
+.album{
+    display:grid;
+
+    grid-template-columns:
+    repeat(auto-fit,minmax(250px,1fr));
+
+    gap:25px;
+}
+
+.carta{
+    background:#ecd39a;
+
+    border:6px solid #5b3513;
+
+    border-radius:20px;
+
+    padding:20px;
+
+    text-align:center;
+
+}
+
+.carta:hover{
+    transform:translateY(-8px);
+}
+
+.carta img{
+    width:100%;
+    height:220px;
+    object-fit:contain;
+}
+
+.carta h4{
+    margin-top:15px;
+    font-size:1.4rem;
+    color:#4d2b0c;
+}
+
+.carta p{
+    margin-top:10px;
+}
+
+/* defensas o combinaciones */
+
+.contenedor-combos{
+    display:flex;
+
+    justify-content:center;
+
+    gap:20px;
+
+    flex-wrap:wrap;
+}
+
+.combo-card{
+    width:550px;
+
+    background:#ecd39a;
+
+    border:6px solid #5b3513;
+
+    border-radius:20px;
+
+    padding:30px;
+
+    text-align:center;
+}
+
+.combo-card h3{
+    font-size:2rem;
+    margin-bottom:20px;
+}
+
+.equipo{
+    display:flex;
+
+    justify-content:center;
+
+    gap: 20px;
+
+    margin-bottom:20px;
+}
+
+.equipo img{
+    width:100px;
+
+    height:100px;
+
+    object-fit:contain;
+
+    transition:.3s;
+
+    border:3px solid #5b3513;
+
+    border-radius:15px;
+}
+
+.equipo img:hover{
+    transform:scale(1.15);
+}
+
+.combo-card p{
+    font-size:1.1rem;
+}
+
+/* soporte para celus */
+
+@media(max-width:768px){
+
+    .pantalla{
+        padding:30px;
+    }
+
+    h2{
+        font-size:2.2rem;
+    }
+
+    header h1{
+        font-size:2rem;
+    }
+
+    .categoria{
+        width:100%;
+    }
+
+    .combo-card{
+        width:100%;
+    }
+
+}
