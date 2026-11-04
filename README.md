@@ -72,7 +72,6 @@ Proyecto Final/
 
 ├── css/
    └── styles.css
-│
 
 ├── icons/
 
